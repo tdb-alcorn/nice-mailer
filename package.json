@@ -1,0 +1,33 @@
+{
+  "name": "nice-msa",
+  "version": "1.0.0",
+  "description": "Nice SMTP mailer.",
+  "main": "mailer.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdb-alcorn/nice-mailer.git"
+  },
+  "keywords": [
+    "smtp",
+    "node",
+    "email"
+  ],
+  "author": "Tom Alcorn <tdb.alcorn@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tdb-alcorn/nice-mailer/issues"
+  },
+  "homepage": "https://github.com/tdb-alcorn/nice-mailer#readme",
+  "dependencies": {
+    "nice-logger": "^1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
